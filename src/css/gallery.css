@@ -1,4 +1,13 @@
-@import url('simplelightbox/dist/simple-lightbox.min.css');
+.sl-overlay {
+    background-color: rgb(46, 47, 66);
+}
+
+.sl-wrapper .sl-close,
+.sl-wrapper button.sl-next,
+.sl-wrapper button.sl-prev,
+.sl-wrapper .sl-counter {
+    color: #fff;
+}
 
 .gallery-wrapper {
     margin-top: 30px;

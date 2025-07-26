@@ -84,5 +84,6 @@ const galleryMarkup = images.map(createGalleryItem).join('');
 galleryList.insertAdjacentHTML('afterbegin', galleryMarkup);
 
 new SimpleLightbox('.gallery a', {
-  /* options */
+  captionsData: 'alt',
+  captionDelay: 250,
 });
