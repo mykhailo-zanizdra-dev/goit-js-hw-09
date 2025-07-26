@@ -72,7 +72,6 @@ const createGalleryItem = ({ preview, original, description }) =>
       <img
         class="gallery-image"
         src="${preview}"
-        data-source="${original}"
         alt="${description}"
       />
     </a>`;
