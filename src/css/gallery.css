@@ -22,15 +22,18 @@
     object-fit: cover;
 }
 
-.gallery-link {
-    cursor: zoom-in;
+.gallery-item {
     width: calc((100% - 48px) / 3);
     max-width: 360px;
     height: 200px;
     transition: transform 350ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.gallery-link:hover,
-.gallery-link:focus {
+.gallery-link {
+    cursor: zoom-in;
+}
+
+.gallery-item:hover,
+.gallery-item:focus {
     transform: scale(1.04);
 }
